@@ -20,7 +20,8 @@ namespace CarLotSimulator
         public Car()
         //This is the default for our Car Class
         {
-
+            //Static Keyword Exercise 2- Increment the Number of Cars when a new Car is created
+            CarLot._numberOfCars++;
         }
 
         //This is a Constructor for our Car Class note we use lower case on the parameter names
@@ -31,6 +32,8 @@ namespace CarLotSimulator
             Model = model;
             EngineNoise = engineNoise;
             HonkNoise = honkNoise;
+            //Static Keyword Exercise 2- Increment the Number of Cars when a new Car is created
+            CarLot._numberOfCars++;
         }
 
         public void MakeEngineNoise(string engineNoise)

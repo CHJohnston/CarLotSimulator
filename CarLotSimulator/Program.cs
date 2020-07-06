@@ -39,6 +39,8 @@ namespace CarLotSimulator
             Console.WriteLine($"Car1 {car1.Year} {car1.Make} {car1.Model}");
             car1.MakeEngineNoise(car1.EngineNoise);
             car1.MakeHonkNoise(car1.HonkNoise);
+            //Static Keyword Exercise 2- Increment the Number of Cars when a new Car is created
+            Console.WriteLine($"Number of Cars in Lot = {(CarLot._numberOfCars)}");
             Console.WriteLine();
 
             //Object Initializer Syntax                       
@@ -54,6 +56,8 @@ namespace CarLotSimulator
             Console.WriteLine($"Car2 {car2.Year} {car2.Make} {car2.Model}");
             car2.MakeEngineNoise(car2.EngineNoise);
             car2.MakeHonkNoise(car2.HonkNoise);
+            //Static Keyword Exercise 2- Increment the Number of Cars when a new Car is created
+            Console.WriteLine($"Number of Cars in Lot = {(CarLot._numberOfCars)}");
             Console.WriteLine();
 
             //Parameterized Constructor Initialization syntax
@@ -62,10 +66,11 @@ namespace CarLotSimulator
             Console.WriteLine($"Car3 {car3.Year} {car3.Make} {car3.Model}");
             car3.MakeEngineNoise(car3.EngineNoise);
             car3.MakeHonkNoise(car3.HonkNoise);
+            //Static Keyword Exercise 2- Increment the Number of Cars when a new Car is created
+            Console.WriteLine($"Number of Cars in Lot = {(CarLot._numberOfCars)}");
             Console.WriteLine();
 
             //*************BONUS X 2*************//
-
             //DONE -Create a CarLot class
             //DONE - It should have at least one property: a List of cars
             //DONE - Instanciate the a Carlot at the beginning of the program and as you create a car add the car to the list.
@@ -74,6 +79,9 @@ namespace CarLotSimulator
             {
                 Console.WriteLine($"Year = {car.Year} Make = {car.Make} = Model {car.Model}");                
             }
+
+            //Static Keyword Exercise 2- Increment the Number of Cars when a new Car is created
+            Console.WriteLine($"Number of Cars in Lot = {(CarLot._numberOfCars)}");
         }
     }
 }
